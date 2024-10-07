@@ -7,8 +7,8 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<style>
-  :host {
+<!-- <style ng-app-id="ng">
+  [_nghost-ng-c3221930717] {
     --bright-blue: oklch(51.01% 0.274 263.83);
     --electric-violet: oklch(53.18% 0.28 296.97);
     --french-violet: oklch(47.66% 0.246 305.88);
@@ -20,19 +20,15 @@
     --gray-700: oklch(36.98% 0.014 302.71);
     --gray-400: oklch(70.9% 0.015 304.04);
 
-    --red-to-pink-to-purple-vertical-gradient: linear-gradient(
-      180deg,
-      var(--orange-red) 0%,
-      var(--vivid-pink) 50%,
-      var(--electric-violet) 100%
-    );
+    --red-to-pink-to-purple-vertical-gradient: linear-gradient(180deg,
+        var(--orange-red) 0%,
+        var(--vivid-pink) 50%,
+        var(--electric-violet) 100%);
 
-    --red-to-pink-to-purple-horizontal-gradient: linear-gradient(
-      90deg,
-      var(--orange-red) 0%,
-      var(--vivid-pink) 50%,
-      var(--electric-violet) 100%
-    );
+    --red-to-pink-to-purple-horizontal-gradient: linear-gradient(90deg,
+        var(--orange-red) 0%,
+        var(--vivid-pink) 50%,
+        var(--electric-violet) 100%);
 
     --pill-accent: var(--bright-blue);
 
@@ -44,7 +40,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  h1 {
+  h1[_ngcontent-ng-c3221930717] {
     font-size: 3.125rem;
     color: var(--gray-900);
     font-weight: 500;
@@ -56,12 +52,12 @@
       "Segoe UI Symbol";
   }
 
-  p {
+  p[_ngcontent-ng-c3221930717] {
     margin: 0;
     color: var(--gray-700);
   }
 
-  main {
+  main[_ngcontent-ng-c3221930717] {
     width: 100%;
     min-height: 100%;
     display: flex;
@@ -72,11 +68,11 @@
     position: relative;
   }
 
-  .angular-logo {
+  .angular-logo[_ngcontent-ng-c3221930717] {
     max-width: 9.2rem;
   }
 
-  .content {
+  .content[_ngcontent-ng-c3221930717] {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -84,21 +80,21 @@
     margin-bottom: 3rem;
   }
 
-  .content h1 {
+  .content[_ngcontent-ng-c3221930717] h1[_ngcontent-ng-c3221930717] {
     margin-top: 1.75rem;
   }
 
-  .content p {
+  .content[_ngcontent-ng-c3221930717] p[_ngcontent-ng-c3221930717] {
     margin-top: 1.5rem;
   }
 
-  .divider {
+  .divider[_ngcontent-ng-c3221930717] {
     width: 1px;
     background: var(--red-to-pink-to-purple-vertical-gradient);
     margin-inline: 0.5rem;
   }
 
-  .pill-group {
+  .pill-group[_ngcontent-ng-c3221930717] {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -106,7 +102,7 @@
     gap: 1.25rem;
   }
 
-  .pill {
+  .pill[_ngcontent-ng-c3221930717] {
     display: flex;
     align-items: center;
     --pill-accent: var(--bright-blue);
@@ -126,49 +122,51 @@
     text-decoration: none;
   }
 
-  .pill:hover {
+  .pill[_ngcontent-ng-c3221930717]:hover {
     background: color-mix(in srgb, var(--pill-accent) 15%, transparent);
   }
 
-  .pill-group .pill:nth-child(6n + 1) {
+  .pill-group[_ngcontent-ng-c3221930717] .pill[_ngcontent-ng-c3221930717]:nth-child(6n + 1) {
     --pill-accent: var(--bright-blue);
   }
-  .pill-group .pill:nth-child(6n + 2) {
+
+  .pill-group[_ngcontent-ng-c3221930717] .pill[_ngcontent-ng-c3221930717]:nth-child(6n + 2) {
     --pill-accent: var(--french-violet);
   }
-  .pill-group .pill:nth-child(6n + 3),
-  .pill-group .pill:nth-child(6n + 4),
-  .pill-group .pill:nth-child(6n + 5) {
+
+  .pill-group[_ngcontent-ng-c3221930717] .pill[_ngcontent-ng-c3221930717]:nth-child(6n + 3),
+  .pill-group[_ngcontent-ng-c3221930717] .pill[_ngcontent-ng-c3221930717]:nth-child(6n + 4),
+  .pill-group[_ngcontent-ng-c3221930717] .pill[_ngcontent-ng-c3221930717]:nth-child(6n + 5) {
     --pill-accent: var(--hot-red);
   }
 
-  .pill-group svg {
+  .pill-group[_ngcontent-ng-c3221930717] svg[_ngcontent-ng-c3221930717] {
     margin-inline-start: 0.25rem;
   }
 
-  .social-links {
+  .social-links[_ngcontent-ng-c3221930717] {
     display: flex;
     align-items: center;
     gap: 0.73rem;
     margin-top: 1.5rem;
   }
 
-  .social-links path {
+  .social-links[_ngcontent-ng-c3221930717] path[_ngcontent-ng-c3221930717] {
     transition: fill 0.3s ease;
     fill: var(--gray-400);
   }
 
-  .social-links a:hover svg path {
+  .social-links[_ngcontent-ng-c3221930717] a[_ngcontent-ng-c3221930717]:hover svg[_ngcontent-ng-c3221930717] path[_ngcontent-ng-c3221930717] {
     fill: var(--gray-900);
   }
 
   @media screen and (max-width: 650px) {
-    .content {
+    .content[_ngcontent-ng-c3221930717] {
       flex-direction: column;
       width: max-content;
     }
 
-    .divider {
+    .divider[_ngcontent-ng-c3221930717] {
       height: 1px;
       width: 100%;
       background: var(--red-to-pink-to-purple-horizontal-gradient);
@@ -176,9 +174,238 @@
     }
   }
 </style>
+<style>
+  [_nghost-ng-c545476617] {
+    --bright-blue: oklch(51.01% 0.274 263.83);
+    --electric-violet: oklch(53.18% 0.28 296.97);
+    --french-violet: oklch(47.66% 0.246 305.88);
+    --vivid-pink: oklch(69.02% 0.277 332.77);
+    --hot-red: oklch(61.42% 0.238 15.34);
+    --orange-red: oklch(63.32% 0.24 31.68);
+
+    --gray-900: oklch(19.37% 0.006 300.98);
+    --gray-700: oklch(36.98% 0.014 302.71);
+    --gray-400: oklch(70.9% 0.015 304.04);
+
+    --red-to-pink-to-purple-vertical-gradient: linear-gradient(180deg,
+        var(--orange-red) 0%,
+        var(--vivid-pink) 50%,
+        var(--electric-violet) 100%);
+
+    --red-to-pink-to-purple-horizontal-gradient: linear-gradient(90deg,
+        var(--orange-red) 0%,
+        var(--vivid-pink) 50%,
+        var(--electric-violet) 100%);
+
+    --pill-accent: var(--bright-blue);
+
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1[_ngcontent-ng-c545476617] {
+    font-size: 3.125rem;
+    color: var(--gray-900);
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.125rem;
+    margin: 0;
+    font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
+
+  p[_ngcontent-ng-c545476617] {
+    margin: 0;
+    color: var(--gray-700);
+  }
+
+  main[_ngcontent-ng-c545476617] {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: inherit;
+    position: relative;
+  }
+
+  .angular-logo[_ngcontent-ng-c545476617] {
+    max-width: 9.2rem;
+  }
+
+  .content[_ngcontent-ng-c545476617] {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 3rem;
+  }
+
+  .content[_ngcontent-ng-c545476617] h1[_ngcontent-ng-c545476617] {
+    margin-top: 1.75rem;
+  }
+
+  .content[_ngcontent-ng-c545476617] p[_ngcontent-ng-c545476617] {
+    margin-top: 1.5rem;
+  }
+
+  .divider[_ngcontent-ng-c545476617] {
+    width: 1px;
+    background: var(--red-to-pink-to-purple-vertical-gradient);
+    margin-inline: 0.5rem;
+  }
+
+  .pill-group[_ngcontent-ng-c545476617] {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+
+  .pill[_ngcontent-ng-c545476617] {
+    display: flex;
+    align-items: center;
+    --pill-accent: var(--bright-blue);
+    background: color-mix(in srgb, var(--pill-accent) 5%, transparent);
+    color: var(--pill-accent);
+    padding-inline: 0.75rem;
+    padding-block: 0.375rem;
+    border-radius: 2.75rem;
+    border: 0;
+    transition: background 0.3s ease;
+    font-family: var(--inter-font);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4rem;
+    letter-spacing: -0.00875rem;
+    text-decoration: none;
+  }
+
+  .pill[_ngcontent-ng-c545476617]:hover {
+    background: color-mix(in srgb, var(--pill-accent) 15%, transparent);
+  }
+
+  .pill-group[_ngcontent-ng-c545476617] .pill[_ngcontent-ng-c545476617]:nth-child(6n + 1) {
+    --pill-accent: var(--bright-blue);
+  }
+
+  .pill-group[_ngcontent-ng-c545476617] .pill[_ngcontent-ng-c545476617]:nth-child(6n + 2) {
+    --pill-accent: var(--french-violet);
+  }
+
+  .pill-group[_ngcontent-ng-c545476617] .pill[_ngcontent-ng-c545476617]:nth-child(6n + 3),
+  .pill-group[_ngcontent-ng-c545476617] .pill[_ngcontent-ng-c545476617]:nth-child(6n + 4),
+  .pill-group[_ngcontent-ng-c545476617] .pill[_ngcontent-ng-c545476617]:nth-child(6n + 5) {
+    --pill-accent: var(--hot-red);
+  }
+
+  .pill-group[_ngcontent-ng-c545476617] svg[_ngcontent-ng-c545476617] {
+    margin-inline-start: 0.25rem;
+  }
+
+  .social-links[_ngcontent-ng-c545476617] {
+    display: flex;
+    align-items: center;
+    gap: 0.73rem;
+    margin-top: 1.5rem;
+  }
+
+  .social-links[_ngcontent-ng-c545476617] path[_ngcontent-ng-c545476617] {
+    transition: fill 0.3s ease;
+    fill: var(--gray-400);
+  }
+
+  .social-links[_ngcontent-ng-c545476617] a[_ngcontent-ng-c545476617]:hover svg[_ngcontent-ng-c545476617] path[_ngcontent-ng-c545476617] {
+    fill: var(--gray-900);
+  }
+
+  @media screen and (max-width: 650px) {
+    .content[_ngcontent-ng-c545476617] {
+      flex-direction: column;
+      width: max-content;
+    }
+
+    .divider[_ngcontent-ng-c545476617] {
+      height: 1px;
+      width: 100%;
+      background: var(--red-to-pink-to-purple-horizontal-gradient);
+      margin-block: 1.5rem;
+    }
+  }
+</style> -->
 
 <main class="main">
-  <div class="content">
+  <div class="nav-bar-theme ng-tns-c2480003647-0 ng-star-inserted">
+    <a class="ng-tns-c2480003647-0" href="https://lin.ee/TAawbmJ">
+      <img class="image-nav-bar-theme ng-tns-c2480003647-0"
+        src="/src/asset/banner-with-medical-pills-pharmacy-capsules-for-health-realistic-3d-illustration-vector.jpg">
+    </a>
+  </div>
+  <!---->
+  <div _ngcontent-ng-c2480003647="" class="nav-bar-box ng-tns-c2480003647-0">
+
+    <div _ngcontent-ng-c2480003647="" class="nav-bar ng-tns-c2480003647-0">
+      <div _ngcontent-ng-c2480003647="" class="logo-365-wecare ng-tns-c2480003647-0" tabindex="0"><span
+          _ngcontent-ng-c2480003647="" class="text-wecare ng-tns-c2480003647-0"> KLUNGYA  </span><span
+          _ngcontent-ng-c2480003647="" class="text-365 ng-tns-c2480003647-0"> - </span>
+          <span
+          _ngcontent-ng-c2480003647="" class="text-wecare ng-tns-c2480003647-0"> WATCHARAPHON  </span></div><router-outlet
+        _ngcontent-ng-c2480003647="" class="ng-tns-c2480003647-0 ng-tns-c3094111837-3" _nghost-ng-c3094111837="">
+        <div _ngcontent-ng-c3094111837="" class="nav-menu-box ng-tns-c3094111837-3">
+          <div _ngcontent-ng-c3094111837="" class="nav-menu-brand ng-tns-c3094111837-3">
+            <p _ngcontent-ng-c3094111837="" class="menu-name ng-tns-c3094111837-3">แบรนด์</p><mat-icon
+              _ngcontent-ng-c3094111837="" role="img"
+              class="mat-icon notranslate ng-tns-c3094111837-3 material-icons mat-ligature-font mat-icon-no-color"
+              aria-hidden="true" data-mat-icon-type="font">arrow_drop_down</mat-icon><!---->
+          </div>
+          <div _ngcontent-ng-c3094111837="" class="nav-menu-article ng-tns-c3094111837-3">
+            <p _ngcontent-ng-c3094111837="" class="menu-name ng-tns-c3094111837-3">บทความ</p><mat-icon
+              _ngcontent-ng-c3094111837="" role="img"
+              class="mat-icon notranslate ng-tns-c3094111837-3 material-icons mat-ligature-font mat-icon-no-color"
+              aria-hidden="true" data-mat-icon-type="font">arrow_drop_down</mat-icon><!---->
+          </div>
+          <div _ngcontent-ng-c3094111837="" class="nav-menu-nutrient ng-tns-c3094111837-3">
+            <p _ngcontent-ng-c3094111837="" class="menu-name ng-tns-c3094111837-3">สารอาหาร</p><mat-icon
+              _ngcontent-ng-c3094111837="" role="img"
+              class="mat-icon notranslate ng-tns-c3094111837-3 material-icons mat-ligature-font mat-icon-no-color"
+              aria-hidden="true" data-mat-icon-type="font">arrow_drop_down</mat-icon><!---->
+          </div>
+          <div _ngcontent-ng-c3094111837="" class="nav-menu-how-to-order ng-tns-c3094111837-3" tabindex="0">
+            <p _ngcontent-ng-c3094111837="" class="menu-name ng-tns-c3094111837-3">วิธีสั่งซื้อ</p>
+          </div>
+        </div>
+      </router-outlet>
+      <div _ngcontent-ng-c2480003647="" class="search-box ng-tns-c2480003647-0"><input _ngcontent-ng-c2480003647=""
+          type="text" placeholder="ค้นหาผลิตภัณฑ์ของคลังยา"
+          class="input-search ng-tns-c2480003647-0 ng-trigger ng-trigger-seachboxAnimate ng-pristine ng-valid ng-touched"
+          style="width: 250px;"><mat-icon _ngcontent-ng-c2480003647="" role="img"
+          class="mat-icon notranslate search-button ng-tns-c2480003647-0 material-icons mat-ligature-font mat-icon-no-color"
+          aria-hidden="true" data-mat-icon-type="font"> search </mat-icon><!----></div>
+      <!-- <div _ngcontent-ng-c2480003647="" style="display: flex; align-items: center; position: relative;"
+        class="ng-tns-c2480003647-0">
+        <div _ngcontent-ng-c2480003647="" class="cart-box ng-tns-c2480003647-0"><mat-icon _ngcontent-ng-c2480003647=""
+            role="img" matbadgecolor="warn"
+            class="mat-icon notranslate mat-badge ng-tns-c2480003647-0 mat-badge-warn material-icons mat-ligature-font mat-icon-no-color mat-badge-overlap mat-badge-above mat-badge-after mat-badge-medium"
+            aria-hidden="true" tabindex="0" data-mat-icon-type="font"> shopping_cart <span id="mat-badge-content-0"
+              aria-hidden="true" class="mat-badge-content mat-badge-active">0</span></mat-icon></div><button
+          _ngcontent-ng-c2480003647="" class="btn-user ng-tns-c2480003647-0 ng-star-inserted" tabindex="0"><mat-icon
+            _ngcontent-ng-c2480003647="" role="img"
+            class="mat-icon notranslate ng-tns-c2480003647-0 material-icons mat-ligature-font mat-icon-no-color"
+            aria-hidden="true" data-mat-icon-type="font"> account_circle </mat-icon><span _ngcontent-ng-c2480003647=""
+            class="text-user ng-tns-c2480003647-0"> เข้าสู่ระบบ </span></button>
+            --><!----><!---->
+      <!-- </div>  -->
+    </div>
+  </div>
+  <!-- <div class="content">
     <div class="left-side">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -321,7 +548,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 </main>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
