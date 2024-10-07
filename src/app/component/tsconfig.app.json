@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // other options...
+  },
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/swiper.d.ts"  // Add this line if you created the file in src/
+  ]
+}
